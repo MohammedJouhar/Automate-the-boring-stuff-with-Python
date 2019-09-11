@@ -1,0 +1,6 @@
+while True: # first line is the infinite loop, It's a while loop condition which is always true,(it'll never end unless there is break)
+    print('Please type your name')
+    name = input()
+    if name == 'your name':
+        break
+print('Thank you')
