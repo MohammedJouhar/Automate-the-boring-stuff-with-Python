@@ -1,0 +1,15 @@
+# 2 learnings here, Continue and break, wrote my own script to get better understanding
+1. Continue is used along with not = , if its not equal to your variable , this script will keep asking you tpye your name
+2. if the password is awesome then it breaks from loop or else it will keep you asking type name again
+
+
+while True:
+
+    name = input("Type your name?\n")
+    if name != 'Jouhar':
+        continue
+    print(f"hello {name}, what is the password?")
+    password = input("""type password \n""")
+    if password == 'awesome':
+        break
+    print("Successfull")
