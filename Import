@@ -1,0 +1,10 @@
+
+# Import Module
+
+# there are a lot of build in functions such as print(), input(), len() etc also comes with set of modules called
+# standard library , you have to import this before using it
+
+import random
+for i in range(5):
+    print(random.randint(20, 25))
+    # print(random.randint(1, 10))
